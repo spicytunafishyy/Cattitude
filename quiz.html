@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cattitude</title>
+    <!--link to css-->
+    <link rel="stylesheet" href="quiz.css">
+
+    <!--jquery-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!--add link to surveyJS theme-->
+    <link href="https://unpkg.com/survey-jquery/defaultV2.min.css" type="text/css" rel="stylesheet">
+
+    <!--add some other link to surveyJs?-->
+    <script type="text/javascript" src="https://unpkg.com/survey-jquery"></script>
+    <script src="quiz2.js"></script>
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@500&display=swap" rel="stylesheet">
+
+<!--styling-->
+<style> 
+body{
+    margin:0;
+}
+
+    #butt{
+        background-color: white;
+      
+        border:none;
+        float:right;
+        padding: 20px;
+        font-size: 20px;
+        margin:20px;
+        font-family: 'Shantell Sans';
+        color:black
+    }
+    #navBar{
+        top:0px;
+        background-color: #21cfff;
+    }
+     /*styling links in buttons*/
+     a{
+        color:black;
+        text-decoration: none;
+    }
+   
+   
+    
+    
+</style>
+
+</head>
+
+<body>
+    <div id="navBar">
+        <nav>
+            <img margin=0px height=200px id="logo" src="logo.png">
+            <button id="butt"> <a id="stuff" href="home.html">Go Home</a> </button>
+            <button id="butt"> <a id="stuff" href="quiz.html">Assess Me!</a> </button>
+            <button id="butt"> <a id="stuff" href="lessons.html">Lessons</a></button>
+            <button id="butt"> <a id="stuff">Sign Up</a> </button>
+            <button id="butt"> <a id="stuff" href="login.html">Log In</a></button>
+        </nav>
+    </div>
+
+    <!-- <div class="home-box custom-box">
+        <h3>Instruction:</h3>
+        <p>Total number of questions:<span class="total-question"> 5</span></p>
+        <button type="button" class="btn">Start!</button>
+    </div> -->
+
+    <!-- <div class="quiz-box custom-box">
+        <div class="question-number">
+
+        </div>
+        <div class = "question-text">
+
+        </div>
+        <div class="option-container">
+
+        </div>
+        <div class = "next-question-btn">
+
+        </div>
+    </div> -->
+
+    <div id="quiz"></div>
+
+</body>
+
+</html>

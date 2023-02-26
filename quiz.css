@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    margin: 0;
+}
+
+/* .custom-box{
+    max-width: 700px;
+    background-color:#a4ebff ;
+    padding: 20px;
+    margin: 40px auto;
+    position: center;
+    border-radius: 10px;
+}
+
+.home-box h3{
+    font-family: 'Shantell Sans';
+    color: rgb(47, 90, 231);
+    padding-bottom: 10px;
+    
+}
+
+.home-box p{
+    font-family: 'Shantell Sans';
+    color: rgb(47, 90, 231);
+    
+}
+
+.btn{
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Shantell Sans';
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 150%;
+} */
+
+#butt {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    float: right;
+    padding: 20px;
+    margin-top: 200px;
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Shantell Sans';
+    color: black
+}
+
+#navBar {
+    top: 0px;
+    background-color: #21cfff;
+}
+
+/*styling links in buttons*/
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#quiz {
+    --primary: #21cfff;
+    ;
+    --background: #ffffff;
+    --background-dim: #f3f3f3;
+    --background-dim-light: #f9f9f9;
+    --primary-foreground: #ffffff;
+    --foreground: #161616;
+    --base-unit: 8px;
+
+}
